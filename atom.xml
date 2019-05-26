@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.rinoux.top</id>
-    <title>tell me your dream</title>
-    <updated>2019-05-26T06:36:57.345Z</updated>
+    <title>你的梦想是什么？</title>
+    <updated>2019-05-26T06:41:01.801Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.rinoux.top"/>
     <link rel="self" href="https://blog.rinoux.top/atom.xml"/>
     <logo>https://blog.rinoux.top/images/avatar.png</logo>
     <icon>https://blog.rinoux.top/favicon.ico</icon>
-    <rights>All rights reserved 2019, tell me your dream</rights>
+    <rights>All rights reserved 2019, 你的梦想是什么？</rights>
     <entry>
         <title type="html"><![CDATA[Executor框架]]></title>
         <id>https://blog.rinoux.top/post/executor-kuang-jia</id>
