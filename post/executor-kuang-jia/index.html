@@ -1,21 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://rinoux.github.io/github.io/</id>
-    <title>tell me your dream</title>
-    <updated>2019-05-26T06:31:21.096Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://rinoux.github.io/github.io/"/>
-    <link rel="self" href="https://rinoux.github.io/github.io//atom.xml"/>
-    <logo>https://rinoux.github.io/github.io//images/avatar.png</logo>
-    <icon>https://rinoux.github.io/github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, tell me your dream</rights>
-    <entry>
-        <title type="html"><![CDATA[Executor框架]]></title>
-        <id>https://rinoux.github.io/github.io//post/executor-kuang-jia</id>
-        <link href="https://rinoux.github.io/github.io//post/executor-kuang-jia">
-        </link>
-        <updated>2019-05-26T06:28:50.000Z</updated>
-        <content type="html"><![CDATA[<ul>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Executor框架 | tell me your dream</title>
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://rinoux.github.io/github.io//favicon.ico?v=1558852279169">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://rinoux.github.io/github.io//styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://rinoux.github.io/github.io/">
+        <img src="https://rinoux.github.io/github.io//images/avatar.png?v=1558852279169" class="site-logo">
+        <h1 class="site-title">tell me your dream</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      
+    </div>
+    <div class="site-footer">
+      blog.rinoux.top | <a class="rss" href="https://rinoux.github.io/github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Executor框架</h2>
+            <div class="post-date">2019-05-26</div>
+            
+              <div class="feature-container" style="background-image: url('https://rinoux.github.io/github.io//post-images/executor-kuang-jia.jpeg')">
+              </div>
+            
+            <div class="post-content">
+              <ul>
 <li>
 <p>Executor框架的UML图如上图所示，Executors作为ExecutorService的工厂类用于创建各种类型的ThreadPool线程池，和上图中的类的关系是持有。</p>
 </li>
@@ -62,6 +146,38 @@
 1、STPE基于相对时间来调度任务，而Timer则是基于绝对时间，对时钟敏感。
 2、STPE是线程池调度，因此某个定时任务抛出异常并不会影响其它定时任务的执行。</li>
 </ul>
-]]></content>
-    </entry>
-</feed>
+
+            </div>
+            
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
